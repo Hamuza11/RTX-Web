@@ -26,7 +26,7 @@ export function render({ device, context }) {
         colorAttachments: [{
             view: textureView,
             loadOp: 'clear',
-            clearValue: { r: 0, g: 0, b: 0, a: 1 },
+            clearValue: { r: 255, g: 255, b: 255, a: 1 },
             storeOp: 'store'
         }]
     });
